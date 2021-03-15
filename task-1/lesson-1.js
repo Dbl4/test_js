@@ -1,4 +1,4 @@
-'use script';
+"use strict";
 
 /* 1. Задать температуру в градусах по Цельсию. Вывести в alert соответствующую температуру в градусах по Фаренгейту. Подсказка: расчёт идёт по формуле: Tf = (9 / 5) * Tc + 32;
 где Tf – температура по Фаренгейту, Tc – температура по Цельсию Задание 1
@@ -13,7 +13,7 @@ alert(`Температура по Фаренгейту: ${Tf}`);
 
 let name = "Василий";
 let admin = name;
-console.log(admin)
+console.log(admin);
 
 /* 3. Вывести в консоль значения выражений и объяснить почему получились такие значения используя комментарии к каждому выражению:
 */
@@ -24,11 +24,11 @@ let result3 = 10 + 10 + +"10";
 let result4 = 10 / -"";
 let result5 = 10 / +"2,5";
 
-console.log(result1)
-console.log(result2)
-console.log(result3)
-console.log(result4)
-console.log(result5)
+console.log(result1);
+console.log(result2);
+console.log(result3);
+console.log(result4);
+console.log(result5);
 
 /*
 1. Складываем первые 2 числа получаем 20 и к этим числам добавляем строку (конкатенация), в результате получаем строку "2010".
